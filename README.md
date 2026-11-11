@@ -4,6 +4,8 @@
 
 AgentX final, track PS-07 Open (team Lumia Agents). Built in the 24-hour window, 11-12 Nov 2026, with an AI coding assistant (allowed by the rules).
 
+**Demo video (3 min, captions):** https://www.youtube.com/watch?v=F2KVF5Amf8o
+
 > **Synthetic data, mocked tools.** The ledger is a made-up CSV. The bank and mail tools are local mocks (a JSON file and an outbox file). Nothing here moves real money or sends real mail. The default LLM is a deterministic mock so the repo runs with no API key; set `GEMINI_API_KEY` and pass `--llm gemini` to let Gemini word the supplier emails (untested against the live API in this build, it falls back to the mock text on any error).
 
 ## Why an agent and not a chatbot
